@@ -16,6 +16,19 @@ services:
       retries: 5
     restart: always
 
+  # ⬇️ NEW: Trino
+  trino:
+    image: trinodb/trino:448
+    container_name: trino
+    ports:
+      - "8081:8080"          # наружу на 8081, внутри 8080
+    volumes:
+      - ./trino/catalog:/etc/trino/catalog
+    depends_on:
+      airflow-metadata:
+        condition: service_healthy
+    restart: always
+
   airflow-scheduler:
     image: my-custom-airflow:${AIRFLOW_VERSION:-2.9.1}
     build:
@@ -25,11 +38,7 @@ services:
         AIRFLOW_VERSION: ${AIRFLOW_VERSION:-2.9.1}
     command: scheduler
     healthcheck:
-      test:
-        [
-          "CMD-SHELL",
-          'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"'
-        ]
+      test: ["CMD-SHELL",'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"']
       interval: 10s
       timeout: 10s
       retries: 5
@@ -40,6 +49,8 @@ services:
         condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
+      trino:
+        condition: service_started
     env_file:
       - airflow/airflow.env
     volumes:
@@ -66,6 +77,8 @@ services:
         condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
+      trino:
+        condition: service_started
     env_file:
       - airflow/airflow.env
     volumes:
@@ -97,5 +110,6 @@ services:
       _AIRFLOW_WWW_USER_PASSWORD: airflow_password
     volumes:
       - ../scripts:/opt/airflow/scripts
+
 volumes:
   airflow-db-data: {}
