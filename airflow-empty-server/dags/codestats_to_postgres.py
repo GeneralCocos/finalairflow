@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
-import os
 from typing import Any, Dict, Optional
 
 import requests
@@ -12,7 +11,7 @@ from psycopg2.extras import Json
 
 API_BASE_URL = "https://api.spacexdata.com/v4"
 LATEST_LAUNCH_ENDPOINT = "launches/latest"
-POSTGRES_CONN_ID = os.getenv("SPACEX_POSTGRES_CONN_ID", "spacex_postgres")
+POSTGRES_CONN_ID = "postgres_default"
 TARGET_TABLE = "spacex_launch_snapshots"
 
 

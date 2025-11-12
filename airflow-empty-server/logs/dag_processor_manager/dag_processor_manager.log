@@ -562,3 +562,48 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/codestats_to_postgres.py                           1           0  0.68s           2025-11-05T05:01:45
 ================================================================================
 [2025-11-05T05:02:07.927+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-12T08:24:00.940+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-11-12T08:24:00.942+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-11-12T08:24:00.943+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-12T08:24:00.945+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T08:24:00.956+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-11-12T08:24:01.244+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/codestats_to_postgres.py    171  0.06s             0           0
+================================================================================
+[2025-11-12T08:24:32.383+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/codestats_to_postgres.py                           1           0  0.38s           2025-11-12T08:24:32
+================================================================================
+[2025-11-12T08:25:03.447+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/codestats_to_postgres.py                           1           0  0.16s           2025-11-12T08:25:02
+================================================================================
+[2025-11-12T08:25:34.808+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/codestats_to_postgres.py                           1           0  0.16s           2025-11-12T08:25:32
+================================================================================
+[2025-11-12T08:26:06.037+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/codestats_to_postgres.py                           1           0  0.23s           2025-11-12T08:26:03
+================================================================================

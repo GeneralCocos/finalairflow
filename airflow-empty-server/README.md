@@ -32,12 +32,9 @@ placeholders so that they exist in a fresh clone.
 
 When you start the stack Airflow will pick up a connection named
 `spacex_postgres` from the environment. It points at the bundled PostgreSQL
-service so that the example DAG can run without extra setup. A compatibility
-alias for `postgres_default` is also exported so that any code that still refers
-to Airflow's traditional default connection continues to work. If you would
-like to ingest into another database, set the `SPACEX_POSTGRES_CONN_ID`
-environment variable inside Airflow or override the
-`AIRFLOW_CONN_SPACEX_POSTGRES` entry in
+service so that the example DAG can run without extra setup. If you would like
+to ingest into another database, set the `SPACEX_POSTGRES_CONN_ID` environment
+variable inside Airflow or override the `AIRFLOW_CONN_SPACEX_POSTGRES` entry in
 [`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env).
 
 ## Configuration
