@@ -51,7 +51,7 @@ def fetch_latest_launch() -> Dict[str, Any]:
 @task
 def load_launch_into_postgres(launch: Dict[str, Any]) -> None:
     """Store the retrieved launch metadata in PostgreSQL as a JSON document."""
-    hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
+    hook = PostgresHook(postgres_conn_id="spacex_postgres")
     hook.run(
         f"""
         CREATE TABLE IF NOT EXISTS {TARGET_TABLE} (
