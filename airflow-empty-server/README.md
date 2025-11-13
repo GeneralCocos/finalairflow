@@ -38,6 +38,15 @@ another database, set the `SPACEX_POSTGRES_CONN_ID` environment variable inside
 Airflow or override the `AIRFLOW_CONN_SPACEX_POSTGRES` entry in
 [`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env).
 
+Two example DAGs demonstrate how to work with this setup:
+
+- `coincap_assets_to_postgres` polls the CoinCap Pro API every minute for
+  Bitcoin, Ethereum, and Tether. Raw snapshots are stored in the
+  `coincap_asset_snapshots` table along with the full JSON payload.
+- `coincap_trino_focus_to_postgres` queries those snapshots through Trino,
+  filters the data down to Bitcoin only, and maintains a curated
+  `coincap_focus_asset` table in PostgreSQL.
+
 ## Configuration
 Airflow specific configuration is stored in
 [`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env). By
