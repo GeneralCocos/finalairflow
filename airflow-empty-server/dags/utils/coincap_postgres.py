@@ -3,9 +3,10 @@ from __future__ import annotations
 import os
 from typing import Dict, Optional
 
-from airflow import settings
+from airflow.exceptions import AirflowNotFoundException
 from airflow.models.connection import Connection
 from airflow.providers.postgres.hooks.postgres import PostgresHook
+from airflow.utils.session import create_session
 from sqlalchemy.engine.url import make_url
 
 COINCAP_POSTGRES_CONN_ID = "coincap_postgres"
@@ -52,8 +53,7 @@ def _collect_connection_settings() -> Dict[str, Optional[str]]:
 def ensure_coincap_postgres_connection() -> None:
     conn_settings = _collect_connection_settings()
 
-    session = settings.Session()
-    try:
+    with create_session() as session:
         conn = (
             session.query(Connection)
             .filter(Connection.conn_id == COINCAP_POSTGRES_CONN_ID)
@@ -69,9 +69,16 @@ def ensure_coincap_postgres_connection() -> None:
         port_value = conn_settings.get("port")
         conn.port = int(port_value) if port_value is not None else None
         session.add(conn)
-        session.commit()
-    finally:
-        session.close()
+        session.flush()
+
+    try:
+        Connection.get_connection_from_secrets(COINCAP_POSTGRES_CONN_ID)
+    except AirflowNotFoundException as exc:  # pragma: no cover - runtime safeguard
+        raise RuntimeError(
+            "Failed to ensure CoinCap Postgres connection. "
+            "Verify the Airflow metadata database is reachable and environment"
+            " variables for CoinCap Postgres are set."
+        ) from exc
 
 
 def get_coincap_postgres_hook() -> PostgresHook:

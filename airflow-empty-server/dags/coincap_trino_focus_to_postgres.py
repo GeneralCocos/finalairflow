@@ -9,9 +9,13 @@ from airflow.decorators import task
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.trino.hooks.trino import TrinoHook
 
+from utils.coincap_postgres import ensure_coincap_postgres_connection
+
 TRINO_CONN_ID = "trino_default"
 COINCAP_POSTGRES_CONN_ID = "coincap_postgres"
 FOCUS_ASSET_ID = "bitcoin"
+
+ensure_coincap_postgres_connection()
 
 
 default_args = {
