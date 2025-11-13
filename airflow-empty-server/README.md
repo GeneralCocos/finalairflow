@@ -38,14 +38,32 @@ another database, set the `SPACEX_POSTGRES_CONN_ID` environment variable inside
 Airflow or override the `AIRFLOW_CONN_SPACEX_POSTGRES` entry in
 [`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env).
 
-Two example DAGs demonstrate how to work with this setup:
+An example DAG demonstrates how to work with this setup:
 
-- `coincap_assets_to_postgres` polls the CoinCap Pro API every minute for
-  Bitcoin, Ethereum, and Tether. Raw snapshots are stored in the
-  `coincap_asset_snapshots` table along with the full JSON payload.
-- `coincap_trino_focus_to_postgres` queries those snapshots through Trino,
-  filters the data down to Bitcoin only, and maintains a curated
-  `coincap_focus_asset` table in PostgreSQL.
+- `openaq_moscow_to_postgres` calls the
+  [OpenAQ API](https://github.com/openaq/openaq-api) every minute and stores the
+  latest air quality measurements for Moscow in PostgreSQL. The pipeline creates
+  an `openaq_moscow_measurements` table and keeps it up to date using an
+  upsert.
+
+### Configuring the OpenAQ ingestion
+
+OpenAQ offers a free REST API. Low-volume access does not require a token, but
+you can request one by following the steps in the
+[OpenAQ API repository](https://github.com/openaq/openaq-api#api-access). When a
+token is available, export it via the `OPENAQ_API_KEY` environment variable in
+[`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env) so the
+DAG sends the required `X-API-Key` header.
+
+The DAG accepts additional environment overrides:
+
+- `OPENAQ_API_BASE_URL` – change this if you need to point at a mirror or a
+  proxy of the API.
+- `OPENAQ_CITY` and `OPENAQ_COUNTRY` – override the monitored location if you
+  would like to track another city supported by OpenAQ.
+- `OPENAQ_POSTGRES_CONN_ID` and `OPENAQ_TABLE_NAME` – customise the destination
+  connection ID or table name if your Airflow deployment uses different
+  conventions.
 
 ## Configuration
 Airflow specific configuration is stored in

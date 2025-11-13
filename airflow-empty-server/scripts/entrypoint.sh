@@ -34,7 +34,7 @@ ensure_connection() {
 
 bootstrap_connections() {
   ensure_connection "trino_default" "AIRFLOW_CONN_TRINO_DEFAULT"
-  ensure_connection "coincap_postgres" "AIRFLOW_CONN_COINCAP_POSTGRES"
+  ensure_connection "spacex_postgres" "AIRFLOW_CONN_SPACEX_POSTGRES"
 }
 
 case "${1:-}" in
