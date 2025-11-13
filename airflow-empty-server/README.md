@@ -43,6 +43,11 @@ Two example DAGs demonstrate how to work with this setup:
 - `coincap_assets_to_postgres` polls the CoinCap Pro API every minute for
   Bitcoin, Ethereum, and Tether. Raw snapshots are stored in the
   `coincap_asset_snapshots` table along with the full JSON payload.
+- When outbound DNS is locked down you can override the CoinCap base URL and
+  force a specific `Host` header using the `COINCAP_API_BASE_URL` and
+  `COINCAP_API_HOST_HEADER` environment variables (see
+  [`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env) for
+  examples).
 - `coincap_trino_focus_to_postgres` queries those snapshots through Trino,
   filters the data down to Bitcoin only, and maintains a curated
   `coincap_focus_asset` table in PostgreSQL.
