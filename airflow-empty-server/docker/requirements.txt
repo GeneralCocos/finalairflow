@@ -1,6 +1,2 @@
-psycopg2-binary~=2.9.10
-pandas~=2.3.3
-invoke~=2.2.1
-apache-airflow-providers-trino
-apache-airflow-providers-postgres
-pyarrow
+apache-airflow-providers-trino==5.8.0
+pandas==2.1.4

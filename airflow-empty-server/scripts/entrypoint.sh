@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
 migrate_database() {
@@ -20,13 +19,26 @@ create_admin_user() {
     --lastname "${lastname}" \
     --email "${email}" \
     --role "${role}" \
-    --password "${password}" \
-    || true
+    --password "${password}" || true
 }
 
-main() {
-  migrate_database
-  create_admin_user
-}
-
-main "$@"
+case "${1:-}" in
+  init)
+    migrate_database
+    create_admin_user
+    ;;
+  webserver)
+    migrate_database
+    create_admin_user
+    exec airflow webserver
+    ;;
+  scheduler)
+    migrate_database
+    exec airflow scheduler
+    ;;
+  *)
+    # по умолчанию ведём себя как init
+    migrate_database
+    create_admin_user
+    ;;
+esac

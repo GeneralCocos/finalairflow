@@ -1801,3 +1801,2025 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.82s           2025-11-12T10:12:00
 /opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.23s           2025-11-12T10:11:58
 ================================================================================
+[2025-11-12T10:12:58.539+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.42s           2025-11-12T10:12:31
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.19s           2025-11-12T10:12:29
+================================================================================
+[2025-11-12T10:13:29.102+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.44s           2025-11-12T10:13:02
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.15s           2025-11-12T10:12:59
+================================================================================
+[2025-11-12T10:13:59.693+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.40s           2025-11-12T10:13:32
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.18s           2025-11-12T10:13:30
+================================================================================
+[2025-11-12T10:14:30.264+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.51s           2025-11-12T10:14:03
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.18s           2025-11-12T10:14:00
+================================================================================
+[2025-11-12T10:15:00.586+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.54s           2025-11-12T10:14:33
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.18s           2025-11-12T10:14:31
+================================================================================
+[2025-11-12T10:15:31.091+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.49s           2025-11-12T10:15:05
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.15s           2025-11-12T10:15:01
+================================================================================
+[2025-11-12T10:15:56.529+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T10:15:56.773+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-12T10:16:01.184+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.43s           2025-11-12T10:15:35
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.15s           2025-11-12T10:15:32
+================================================================================
+[2025-11-12T10:20:29.844+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  4.64s           2025-11-12T10:20:21
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  2.07s           2025-11-12T10:20:19
+================================================================================
+[2025-11-12T10:20:56.566+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T10:20:56.633+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-12T10:21:00.433+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.99s           2025-11-12T10:20:53
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.38s           2025-11-12T10:20:50
+================================================================================
+[2025-11-12T10:21:29.597+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  1.31s           2025-11-12T10:21:24
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.70s           2025-11-12T10:21:22
+================================================================================
+[2025-11-12T10:22:00.110+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  1.12s           2025-11-12T10:21:56
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.47s           2025-11-12T10:21:53
+================================================================================
+[2025-11-12T10:22:29.373+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  1.59s           2025-11-12T10:22:28
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.37s           2025-11-12T10:22:23
+================================================================================
+[2025-11-12T10:22:58.315+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  1.59s           2025-11-12T10:22:28
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.17s           2025-11-12T10:22:54
+================================================================================
+[2025-11-12T10:23:27.991+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.47s           2025-11-12T10:22:59
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.18s           2025-11-12T10:23:25
+================================================================================
+[2025-11-12T10:23:57.417+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.49s           2025-11-12T10:23:29
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.17s           2025-11-12T10:23:55
+================================================================================
+[2025-11-12T10:24:26.894+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.60s           2025-11-12T10:24:01
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-12T10:24:26
+================================================================================
+[2025-11-12T10:24:55.994+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.65s           2025-11-12T10:24:31
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-12T10:24:26
+================================================================================
+[2025-11-12T10:25:25.262+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.59s           2025-11-12T10:25:03
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.22s           2025-11-12T10:24:56
+================================================================================
+[2025-11-12T10:25:54.331+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.47s           2025-11-12T10:25:33
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.21s           2025-11-12T10:25:27
+================================================================================
+[2025-11-12T10:25:56.832+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T10:25:56.875+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-12T10:26:23.341+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.56s           2025-11-12T10:26:04
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.21s           2025-11-12T10:25:57
+================================================================================
+[2025-11-12T10:26:52.653+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.54s           2025-11-12T10:26:35
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-12T10:26:28
+================================================================================
+[2025-11-12T10:27:21.738+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.42s           2025-11-12T10:27:05
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.17s           2025-11-12T10:26:58
+================================================================================
+[2025-11-12T10:27:50.842+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.57s           2025-11-12T10:27:36
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.20s           2025-11-12T10:27:29
+================================================================================
+[2025-11-12T10:28:20.294+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.65s           2025-11-12T10:28:08
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.20s           2025-11-12T10:27:59
+================================================================================
+[2025-11-12T10:28:49.485+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.51s           2025-11-12T10:28:39
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.17s           2025-11-12T10:28:30
+================================================================================
+[2025-11-12T10:29:18.655+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.45s           2025-11-12T10:29:09
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-12T10:29:00
+================================================================================
+[2025-11-12T10:29:47.903+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.44s           2025-11-12T10:29:41
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.23s           2025-11-12T10:29:30
+================================================================================
+[2025-11-12T10:30:17.107+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.83s           2025-11-12T10:30:12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.41s           2025-11-12T10:30:01
+================================================================================
+[2025-11-12T10:30:46.297+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.65s           2025-11-12T10:30:43
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.19s           2025-11-12T10:30:31
+================================================================================
+[2025-11-12T10:30:57.272+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T10:30:57.321+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-12T10:31:15.246+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           0           1  0.46s           2025-11-12T10:31:14
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.24s           2025-11-12T10:31:02
+================================================================================
+[2025-11-12T10:31:26.858+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-12T16:50:44.050+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-12T16:50:44.051+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-12T16:50:44.051+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-12T16:50:44.052+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T16:50:44.106+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-12T16:50:44.341+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          162  0.05s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    159  0.07s             0           0                                                   0
+================================================================================
+[2025-11-12T16:51:14.907+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          186  0.00s             1           0  0.55s           2025-11-12T13:50:44                      45
+/opt/airflow/dags/trino_transform_to_postgres.py    183  0.02s             0           1  0.22s           2025-11-12T13:50:44                       3
+================================================================================
+[2025-11-12T16:51:45.531+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          221  0.01s             1           0  0.18s           2025-11-12T13:51:15                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    218  0.08s             0           1  0.11s           2025-11-12T13:51:15                       5
+================================================================================
+[2025-11-12T16:52:16.207+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          254  0.00s             1           0  0.43s           2025-11-12T13:51:45                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    251  0.02s             0           1  0.35s           2025-11-12T13:51:45                       5
+================================================================================
+[2025-11-12T16:52:46.723+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          285  0.00s             1           0  0.18s           2025-11-12T13:52:16                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    282  0.02s             0           1  0.13s           2025-11-12T13:52:16                       5
+================================================================================
+[2025-11-12T16:53:17.228+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          315  0.00s             1           0  0.19s           2025-11-12T13:52:46                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    312  0.02s             0           1  0.13s           2025-11-12T13:52:46                       5
+================================================================================
+[2025-11-12T16:53:47.821+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          345  0.01s             1           0  0.18s           2025-11-12T13:53:17                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    336  0.03s             0           1  0.11s           2025-11-12T13:53:17                       5
+================================================================================
+[2025-11-12T16:54:18.385+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          376  0.00s             1           0  0.28s           2025-11-12T13:53:48                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    373  0.01s             0           1  0.18s           2025-11-12T13:53:47                       5
+================================================================================
+[2025-11-12T16:54:48.922+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          400  0.00s             1           0  0.15s           2025-11-12T13:54:18                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    397  0.02s             0           1  0.09s           2025-11-12T13:54:18                       5
+================================================================================
+[2025-11-12T16:55:19.476+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          437  0.00s             1           0  0.16s           2025-11-12T13:54:49                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    434  0.02s             0           1  0.09s           2025-11-12T13:54:48                       5
+================================================================================
+[2025-11-12T16:55:44.927+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T16:55:45.028+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-12T16:55:50.150+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          461  0.00s             1           0  0.17s           2025-11-12T13:55:19                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    458  0.02s             0           1  0.11s           2025-11-12T13:55:19                       5
+================================================================================
+[2025-11-12T16:56:20.677+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          499  0.00s             1           0  0.16s           2025-11-12T13:55:50                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    496  0.02s             0           1  0.10s           2025-11-12T13:55:50                       5
+================================================================================
+[2025-11-12T16:56:51.297+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          523  0.01s             1           0  0.19s           2025-11-12T13:56:20                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    520  0.06s             0           1  0.12s           2025-11-12T13:56:20                       5
+================================================================================
+[2025-11-12T16:57:21.889+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          560  0.01s             1           0  0.40s           2025-11-12T13:56:51                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    557  0.02s             0           1  0.24s           2025-11-12T13:56:51                       5
+================================================================================
+[2025-11-12T16:57:52.499+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          584  0.00s             1           0  0.20s           2025-11-12T13:57:22                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    581  0.01s             0           1  0.14s           2025-11-12T13:57:22                       5
+================================================================================
+[2025-11-12T16:58:23.032+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          621  0.00s             1           0  0.15s           2025-11-12T13:57:52                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    618  0.02s             0           1  0.09s           2025-11-12T13:57:52                       5
+================================================================================
+[2025-11-12T16:58:53.665+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          645  0.00s             1           0  0.20s           2025-11-12T13:58:23                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    642  0.02s             0           1  0.11s           2025-11-12T13:58:23                       5
+================================================================================
+[2025-11-12T16:59:24.183+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          682  0.00s             1           0  0.20s           2025-11-12T13:58:53                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    679  0.02s             0           1  0.11s           2025-11-12T13:58:53                       5
+================================================================================
+[2025-11-12T16:59:54.320+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.64s           2025-11-12T13:59:24                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    703  0.00s             0           1  0.13s           2025-11-12T13:59:24                       5
+================================================================================
+[2025-11-12T17:00:24.898+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.30s           2025-11-12T13:59:55                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    741  0.00s             0           1  0.14s           2025-11-12T13:59:54                       5
+================================================================================
+[2025-11-12T17:00:45.308+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-12T17:00:45.370+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-12T17:00:55.671+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.27s           2025-11-12T14:00:26                      12
+/opt/airflow/dags/trino_transform_to_postgres.py    765  0.00s             0           1  0.09s           2025-11-12T14:00:24                       5
+================================================================================
+[2025-11-12T17:01:19.025+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T08:53:05.690+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T08:53:05.692+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T08:53:05.693+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T08:53:05.694+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T08:53:05.782+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T08:53:07.408+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          162  0.70s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    159  0.90s             0           0                                                   0
+================================================================================
+[2025-11-13T08:53:37.665+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  6.92s           2025-11-13T05:53:13                      45
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  2.37s           2025-11-13T05:53:09                      12
+================================================================================
+[2025-11-13T08:54:08.302+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.32s           2025-11-13T05:53:45                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.55s           2025-11-13T05:53:39                      12
+================================================================================
+[2025-11-13T08:54:38.944+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.96s           2025-11-13T05:54:16                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.26s           2025-11-13T05:54:10                      12
+================================================================================
+[2025-11-13T08:55:09.400+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.41s           2025-11-13T05:54:48                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  2.36s           2025-11-13T05:54:43                      12
+================================================================================
+[2025-11-13T08:55:39.965+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.48s           2025-11-13T05:55:20                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.34s           2025-11-13T05:55:14                      12
+================================================================================
+[2025-11-13T08:56:10.732+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.24s           2025-11-13T05:55:52                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.47s           2025-11-13T05:55:45                      12
+================================================================================
+[2025-11-13T08:56:41.365+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.93s           2025-11-13T05:56:24                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.49s           2025-11-13T05:56:16                      12
+================================================================================
+[2025-11-13T08:57:12.273+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.03s           2025-11-13T05:56:58                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.41s           2025-11-13T05:56:46                      12
+================================================================================
+[2025-11-13T08:57:42.325+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.52s           2025-11-13T05:57:30                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.34s           2025-11-13T05:57:17                      12
+================================================================================
+[2025-11-13T08:58:06.000+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T08:58:06.076+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T08:58:12.500+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.74s           2025-11-13T05:58:02                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.54s           2025-11-13T05:57:48                      12
+================================================================================
+[2025-11-13T08:58:42.991+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.60s           2025-11-13T05:58:34                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.34s           2025-11-13T05:58:19                      12
+================================================================================
+[2025-11-13T08:59:13.337+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.54s           2025-11-13T05:59:06                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.38s           2025-11-13T05:58:50                      12
+================================================================================
+[2025-11-13T08:59:43.654+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.32s           2025-11-13T05:59:37                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.33s           2025-11-13T05:59:21                      12
+================================================================================
+[2025-11-13T09:00:13.755+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.53s           2025-11-13T06:00:09                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.23s           2025-11-13T05:59:52                      12
+================================================================================
+[2025-11-13T09:00:44.061+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.67s           2025-11-13T06:00:41                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.33s           2025-11-13T06:00:22                      12
+================================================================================
+[2025-11-13T09:01:14.132+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.33s           2025-11-13T06:01:13                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.65s           2025-11-13T06:00:53                      12
+================================================================================
+[2025-11-13T09:01:41.266+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T09:02:46.476+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T09:02:46.479+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T09:02:46.481+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T09:02:46.482+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:02:46.587+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:02:47.107+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          170  0.08s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    167  0.12s             0           0                                                   0
+================================================================================
+[2025-11-13T09:03:17.312+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.91s           2025-11-13T06:02:49                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.68s           2025-11-13T06:02:47                      12
+================================================================================
+[2025-11-13T09:03:47.327+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py    241  1.07s             1           0  2.47s           2025-11-13T06:03:22                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.46s           2025-11-13T06:03:18                      12
+================================================================================
+[2025-11-13T09:04:17.384+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.47s           2025-11-13T06:03:48                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.48s           2025-11-13T06:03:50                      12
+================================================================================
+[2025-11-13T09:04:48.342+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.01s           2025-11-13T06:04:20                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.44s           2025-11-13T06:04:20                      12
+================================================================================
+[2025-11-13T09:05:18.429+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.10s           2025-11-13T06:04:53                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.61s           2025-11-13T06:04:52                      12
+================================================================================
+[2025-11-13T09:05:49.001+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.61s           2025-11-13T06:05:25                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.34s           2025-11-13T06:05:22                      12
+================================================================================
+[2025-11-13T09:06:19.966+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.81s           2025-11-13T06:05:58                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.29s           2025-11-13T06:05:53                      12
+================================================================================
+[2025-11-13T09:06:35.617+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T09:07:38.417+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T09:07:38.419+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T09:07:38.424+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T09:07:38.426+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:07:38.535+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:07:39.078+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          162  0.12s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    158  0.17s             0           0                                                   0
+================================================================================
+[2025-11-13T09:08:09.644+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.79s           2025-11-13T06:07:41                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  1.09s           2025-11-13T06:07:40                      12
+================================================================================
+[2025-11-13T09:08:40.228+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.78s           2025-11-13T06:08:14                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.60s           2025-11-13T06:08:10                      12
+================================================================================
+[2025-11-13T09:09:10.761+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.53s           2025-11-13T06:08:46                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.61s           2025-11-13T06:08:41                      12
+================================================================================
+[2025-11-13T09:09:40.838+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.79s           2025-11-13T06:09:19                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.46s           2025-11-13T06:09:12                      12
+================================================================================
+[2025-11-13T09:10:11.030+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.35s           2025-11-13T06:09:51                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.25s           2025-11-13T06:09:43                      12
+================================================================================
+[2025-11-13T09:10:41.468+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.07s           2025-11-13T06:10:23                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  1.09s           2025-11-13T06:10:14                      12
+================================================================================
+[2025-11-13T09:11:11.533+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.37s           2025-11-13T06:10:56                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.34s           2025-11-13T06:10:45                      12
+================================================================================
+[2025-11-13T09:11:41.979+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.77s           2025-11-13T06:11:28                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.33s           2025-11-13T06:11:16                      12
+================================================================================
+[2025-11-13T09:12:12.059+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.93s           2025-11-13T06:11:59                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.29s           2025-11-13T06:11:47                      12
+================================================================================
+[2025-11-13T09:12:38.848+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:12:38.904+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:12:43.005+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.37s           2025-11-13T06:12:31                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.38s           2025-11-13T06:12:18                      12
+================================================================================
+[2025-11-13T09:13:13.442+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.18s           2025-11-13T06:13:03                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.51s           2025-11-13T06:12:49                      12
+================================================================================
+[2025-11-13T09:13:43.954+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.42s           2025-11-13T06:13:35                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.34s           2025-11-13T06:13:20                      12
+================================================================================
+[2025-11-13T09:14:13.986+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.43s           2025-11-13T06:14:07                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.32s           2025-11-13T06:13:51                      12
+================================================================================
+[2025-11-13T09:14:44.504+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.00s           2025-11-13T06:14:40                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.44s           2025-11-13T06:14:22                      12
+================================================================================
+[2025-11-13T09:15:14.623+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.94s           2025-11-13T06:15:11                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.39s           2025-11-13T06:14:53                      12
+================================================================================
+[2025-11-13T09:15:44.730+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.81s           2025-11-13T06:15:42                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.33s           2025-11-13T06:15:24                      12
+================================================================================
+[2025-11-13T09:16:14.989+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.02s           2025-11-13T06:16:13                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.47s           2025-11-13T06:15:54                      12
+================================================================================
+[2025-11-13T09:16:45.337+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.82s           2025-11-13T06:16:44                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.58s           2025-11-13T06:16:25                      12
+================================================================================
+[2025-11-13T09:17:15.545+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py    825  0.29s             1           0  0.82s           2025-11-13T06:16:44                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.29s           2025-11-13T06:16:56                      12
+================================================================================
+[2025-11-13T09:17:39.254+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:17:39.312+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:17:46.431+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py    856  0.00s             1           0  0.88s           2025-11-13T06:17:16                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.32s           2025-11-13T06:17:27                      12
+================================================================================
+[2025-11-13T09:18:16.564+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.66s           2025-11-13T06:17:47                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.20s           2025-11-13T06:17:57                      12
+================================================================================
+[2025-11-13T09:18:47.049+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.70s           2025-11-13T06:18:18                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.22s           2025-11-13T06:18:27                      12
+================================================================================
+[2025-11-13T09:19:17.353+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.65s           2025-11-13T06:18:48                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.25s           2025-11-13T06:18:58                      12
+================================================================================
+[2025-11-13T09:19:47.996+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.41s           2025-11-13T06:19:20                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.19s           2025-11-13T06:19:29                      12
+================================================================================
+[2025-11-13T09:20:17.847+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.68s           2025-11-13T06:19:51                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.55s           2025-11-13T06:19:59                      12
+================================================================================
+[2025-11-13T09:20:48.069+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.91s           2025-11-13T06:20:22                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.26s           2025-11-13T06:20:30                      12
+================================================================================
+[2025-11-13T09:21:18.250+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.81s           2025-11-13T06:20:53                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.55s           2025-11-13T06:21:01                      12
+================================================================================
+[2025-11-13T09:21:48.309+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.43s           2025-11-13T06:21:25                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.52s           2025-11-13T06:21:32                      12
+================================================================================
+[2025-11-13T09:22:19.048+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.33s           2025-11-13T06:21:57                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.40s           2025-11-13T06:22:02                      12
+================================================================================
+[2025-11-13T09:22:39.303+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:22:39.348+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:22:45.436+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T09:23:40.385+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T09:23:40.386+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T09:23:40.387+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T09:23:40.389+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:23:40.496+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:23:40.969+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          162  0.06s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    159  0.10s             0           0                                                   0
+================================================================================
+[2025-11-13T09:24:11.927+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.52s           2025-11-13T06:23:42                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.28s           2025-11-13T06:24:11                      12
+================================================================================
+[2025-11-13T09:24:43.025+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.75s           2025-11-13T06:24:14                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.43s           2025-11-13T06:24:42                      12
+================================================================================
+[2025-11-13T09:25:13.974+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.03s           2025-11-13T06:24:45                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.35s           2025-11-13T06:25:12                      12
+================================================================================
+[2025-11-13T09:25:45.190+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.42s           2025-11-13T06:25:17                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.45s           2025-11-13T06:25:43                      12
+================================================================================
+[2025-11-13T09:26:16.102+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.67s           2025-11-13T06:25:48                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.98s           2025-11-13T06:26:14                      12
+================================================================================
+[2025-11-13T09:26:46.858+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.55s           2025-11-13T06:26:20                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.37s           2025-11-13T06:26:45                      12
+================================================================================
+[2025-11-13T09:27:18.072+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.16s           2025-11-13T06:26:52                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.39s           2025-11-13T06:27:16                      12
+================================================================================
+[2025-11-13T09:27:48.773+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.43s           2025-11-13T06:27:23                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.29s           2025-11-13T06:27:46                      12
+================================================================================
+[2025-11-13T09:28:19.946+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.73s           2025-11-13T06:27:55                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.26s           2025-11-13T06:28:17                      12
+================================================================================
+[2025-11-13T09:28:40.508+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:28:40.568+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:28:50.339+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.38s           2025-11-13T06:28:27                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.43s           2025-11-13T06:28:48                      12
+================================================================================
+[2025-11-13T09:29:22.234+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.66s           2025-11-13T06:28:59                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.47s           2025-11-13T06:29:19                      12
+================================================================================
+[2025-11-13T09:29:53.059+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.78s           2025-11-13T06:29:31                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.72s           2025-11-13T06:29:50                      12
+================================================================================
+[2025-11-13T09:30:24.494+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.96s           2025-11-13T06:30:02                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.28s           2025-11-13T06:30:20                      12
+================================================================================
+[2025-11-13T09:30:55.826+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.23s           2025-11-13T06:30:33                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.23s           2025-11-13T06:30:50                      12
+================================================================================
+[2025-11-13T09:31:26.727+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.32s           2025-11-13T06:31:05                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.52s           2025-11-13T06:31:21                      12
+================================================================================
+[2025-11-13T09:31:57.818+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.84s           2025-11-13T06:31:36                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.28s           2025-11-13T06:31:52                      12
+================================================================================
+[2025-11-13T09:32:28.551+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.69s           2025-11-13T06:32:07                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.31s           2025-11-13T06:32:22                      12
+================================================================================
+[2025-11-13T09:33:00.652+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.08s           2025-11-13T06:32:38                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.24s           2025-11-13T06:32:53                      12
+================================================================================
+[2025-11-13T09:33:31.890+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.88s           2025-11-13T06:33:10                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.18s           2025-11-13T06:33:23                      12
+================================================================================
+[2025-11-13T09:33:40.971+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:33:41.011+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:34:02.726+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.71s           2025-11-13T06:33:41                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.21s           2025-11-13T06:33:54                      12
+================================================================================
+[2025-11-13T09:34:34.309+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  3.18s           2025-11-13T06:34:15                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.19s           2025-11-13T06:34:25                      12
+================================================================================
+[2025-11-13T09:35:05.935+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.52s           2025-11-13T06:34:46                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.21s           2025-11-13T06:34:56                      12
+================================================================================
+[2025-11-13T09:35:37.283+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.55s           2025-11-13T06:35:17                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.18s           2025-11-13T06:35:27                      12
+================================================================================
+[2025-11-13T09:36:07.977+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.00s           2025-11-13T06:35:49                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.28s           2025-11-13T06:35:58                      12
+================================================================================
+[2025-11-13T09:36:39.689+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.95s           2025-11-13T06:36:22                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.31s           2025-11-13T06:36:28                      12
+================================================================================
+[2025-11-13T09:37:10.775+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.54s           2025-11-13T06:36:52                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.21s           2025-11-13T06:36:59                      12
+================================================================================
+[2025-11-13T09:37:41.718+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.61s           2025-11-13T06:37:23                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.22s           2025-11-13T06:37:30                      12
+================================================================================
+[2025-11-13T09:38:13.051+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.83s           2025-11-13T06:37:54                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.35s           2025-11-13T06:38:01                      12
+================================================================================
+[2025-11-13T09:38:41.229+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:38:41.310+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:38:44.397+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.85s           2025-11-13T06:38:26                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.30s           2025-11-13T06:38:32                      12
+================================================================================
+[2025-11-13T09:39:15.473+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.69s           2025-11-13T06:38:57                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-13T06:39:03                      12
+================================================================================
+[2025-11-13T09:39:46.893+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.59s           2025-11-13T06:39:28                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-13T06:39:33                      12
+================================================================================
+[2025-11-13T09:40:17.742+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.59s           2025-11-13T06:39:59                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.19s           2025-11-13T06:40:04                      12
+================================================================================
+[2025-11-13T09:40:48.572+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.72s           2025-11-13T06:40:30                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.17s           2025-11-13T06:40:35                      12
+================================================================================
+[2025-11-13T09:41:19.583+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.87s           2025-11-13T06:41:01                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.28s           2025-11-13T06:41:06                      12
+================================================================================
+[2025-11-13T09:41:50.901+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.81s           2025-11-13T06:41:32                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.22s           2025-11-13T06:41:37                      12
+================================================================================
+[2025-11-13T09:42:21.798+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.77s           2025-11-13T06:42:03                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.18s           2025-11-13T06:42:07                      12
+================================================================================
+[2025-11-13T09:42:52.193+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.54s           2025-11-13T06:42:34                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-13T06:42:38                      12
+================================================================================
+[2025-11-13T09:43:22.598+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.53s           2025-11-13T06:43:05                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.21s           2025-11-13T06:43:08                      12
+================================================================================
+[2025-11-13T09:43:41.253+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:43:41.308+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:43:53.119+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.79s           2025-11-13T06:43:37                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.27s           2025-11-13T06:43:39                      12
+================================================================================
+[2025-11-13T09:44:23.635+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.11s           2025-11-13T06:44:09                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.32s           2025-11-13T06:44:10                      12
+================================================================================
+[2025-11-13T09:44:54.028+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.89s           2025-11-13T06:44:52                      34
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.16s           2025-11-13T06:44:40                      12
+================================================================================
+[2025-11-13T09:45:07.027+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T09:45:50.124+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T09:45:50.126+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T09:45:50.128+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T09:45:50.129+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:45:50.216+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:45:50.673+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          161  0.04s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    158  0.07s             0           0                                                   0
+================================================================================
+[2025-11-13T09:46:21.560+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.19s           2025-11-13T06:45:51                      12
+/opt/airflow/dags/codestats_to_postgres.py          261  0.01s             1           0  0.37s           2025-11-13T06:45:50                      12
+================================================================================
+[2025-11-13T09:46:52.429+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.91s           2025-11-13T06:46:22                      12
+/opt/airflow/dags/codestats_to_postgres.py          299  0.00s             1           0  0.34s           2025-11-13T06:46:21                      12
+================================================================================
+[2025-11-13T09:47:22.813+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.69s           2025-11-13T06:46:54                      12
+/opt/airflow/dags/codestats_to_postgres.py          336  0.01s             1           0  0.22s           2025-11-13T06:46:52                      12
+================================================================================
+[2025-11-13T09:47:53.377+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.85s           2025-11-13T06:47:25                      12
+/opt/airflow/dags/codestats_to_postgres.py          374  0.00s             1           0  0.16s           2025-11-13T06:47:22                      12
+================================================================================
+[2025-11-13T09:48:23.683+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.65s           2025-11-13T06:47:57                      12
+/opt/airflow/dags/codestats_to_postgres.py          491  0.07s             1           0  0.17s           2025-11-13T06:47:53                      12
+================================================================================
+[2025-11-13T09:48:53.940+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.02s           2025-11-13T06:48:28                      12
+/opt/airflow/dags/codestats_to_postgres.py          571  0.03s             1           0  0.17s           2025-11-13T06:48:23                      12
+================================================================================
+[2025-11-13T09:49:24.744+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.10s           2025-11-13T06:49:00                      12
+/opt/airflow/dags/codestats_to_postgres.py          619  0.00s             1           0  0.16s           2025-11-13T06:48:54                      12
+================================================================================
+[2025-11-13T09:49:55.156+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.75s           2025-11-13T06:49:31                      12
+/opt/airflow/dags/codestats_to_postgres.py          650  0.00s             1           0  0.17s           2025-11-13T06:49:24                      12
+================================================================================
+[2025-11-13T09:50:25.882+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.02s           2025-11-13T06:50:03                      12
+/opt/airflow/dags/codestats_to_postgres.py          717  0.00s             1           0  0.19s           2025-11-13T06:49:55                      12
+================================================================================
+[2025-11-13T09:50:50.235+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:50:50.316+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:50:56.456+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.78s           2025-11-13T06:50:34                      12
+/opt/airflow/dags/codestats_to_postgres.py          755  0.00s             1           0  0.15s           2025-11-13T06:50:26                      12
+================================================================================
+[2025-11-13T09:51:27.168+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.53s           2025-11-13T06:51:07                      12
+/opt/airflow/dags/codestats_to_postgres.py          786  0.00s             1           0  0.21s           2025-11-13T06:50:56                      12
+================================================================================
+[2025-11-13T09:51:58.382+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.38s           2025-11-13T06:51:38                      12
+/opt/airflow/dags/codestats_to_postgres.py          817  0.00s             1           0  0.20s           2025-11-13T06:51:27                      12
+================================================================================
+[2025-11-13T09:52:28.765+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.73s           2025-11-13T06:52:10                      12
+/opt/airflow/dags/codestats_to_postgres.py          855  0.00s             1           0  0.17s           2025-11-13T06:51:58                      12
+================================================================================
+[2025-11-13T09:52:34.960+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T09:53:08.206+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T09:53:08.208+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T09:53:08.209+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T09:53:08.211+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:53:08.274+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:53:08.538+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          162  0.04s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    159  0.06s             0           0                                                   0
+================================================================================
+[2025-11-13T09:53:38.841+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.01s           2025-11-13T06:53:09                      12
+/opt/airflow/dags/codestats_to_postgres.py          292  0.00s             1           0  0.29s           2025-11-13T06:53:08                      12
+================================================================================
+[2025-11-13T09:54:09.281+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.49s           2025-11-13T06:53:41                      12
+/opt/airflow/dags/codestats_to_postgres.py          393  0.00s             1           0  0.33s           2025-11-13T06:53:39                      12
+================================================================================
+[2025-11-13T09:54:39.828+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.72s           2025-11-13T06:54:12                      12
+/opt/airflow/dags/codestats_to_postgres.py          425  0.00s             1           0  0.19s           2025-11-13T06:54:09                      12
+================================================================================
+[2025-11-13T09:55:10.537+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.32s           2025-11-13T06:54:44                      12
+/opt/airflow/dags/codestats_to_postgres.py          462  0.01s             1           0  0.23s           2025-11-13T06:54:40                      12
+================================================================================
+[2025-11-13T09:55:41.274+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.77s           2025-11-13T06:55:15                      12
+/opt/airflow/dags/codestats_to_postgres.py          511  0.01s             1           0  0.28s           2025-11-13T06:55:10                      12
+================================================================================
+[2025-11-13T09:56:11.897+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.83s           2025-11-13T06:55:46                      12
+/opt/airflow/dags/codestats_to_postgres.py          598  0.01s             1           0  0.30s           2025-11-13T06:55:41                      12
+================================================================================
+[2025-11-13T09:56:42.319+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.76s           2025-11-13T06:56:18                      12
+/opt/airflow/dags/codestats_to_postgres.py          636  0.00s             1           0  0.23s           2025-11-13T06:56:12                      12
+================================================================================
+[2025-11-13T09:56:59.649+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T09:57:09.076+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T09:57:09.077+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T09:57:09.078+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T09:57:09.079+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T09:57:09.124+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T09:57:09.361+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          162  0.05s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    159  0.07s             0           0                                                   0
+================================================================================
+[2025-11-13T09:57:40.268+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.01s           2025-11-13T06:57:10                      11
+/opt/airflow/dags/codestats_to_postgres.py          202  0.01s             1           0  0.34s           2025-11-13T06:57:09                      12
+================================================================================
+[2025-11-13T09:58:11.084+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.96s           2025-11-13T06:57:41                      12
+/opt/airflow/dags/codestats_to_postgres.py          309  0.01s             1           0  0.42s           2025-11-13T06:57:40                      12
+================================================================================
+[2025-11-13T09:58:41.393+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.71s           2025-11-13T06:58:12                      12
+/opt/airflow/dags/codestats_to_postgres.py          347  0.00s             1           0  0.28s           2025-11-13T06:58:11                      12
+================================================================================
+[2025-11-13T09:59:12.331+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.68s           2025-11-13T06:58:44                      12
+/opt/airflow/dags/codestats_to_postgres.py          384  0.01s             1           0  0.21s           2025-11-13T06:58:41                      12
+================================================================================
+[2025-11-13T09:59:43.582+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.06s           2025-11-13T06:59:15                      12
+/opt/airflow/dags/codestats_to_postgres.py          422  0.01s             1           0  0.36s           2025-11-13T06:59:12                      12
+================================================================================
+[2025-11-13T10:00:13.965+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.93s           2025-11-13T06:59:46                      12
+/opt/airflow/dags/codestats_to_postgres.py          519  0.00s             1           0  0.21s           2025-11-13T06:59:43                      12
+================================================================================
+[2025-11-13T10:00:44.496+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.98s           2025-11-13T07:00:44                      12
+/opt/airflow/dags/codestats_to_postgres.py          562  0.00s             1           0  0.25s           2025-11-13T07:00:14                      12
+================================================================================
+[2025-11-13T10:00:48.201+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T10:00:54.642+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T10:00:54.643+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T10:00:54.644+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T10:00:54.644+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T10:00:54.677+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T10:00:54.836+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          155  0.03s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    152  0.04s             0           0                                                   0
+================================================================================
+[2025-11-13T10:01:25.409+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.68s           2025-11-13T07:00:55                      12
+/opt/airflow/dags/codestats_to_postgres.py          206  0.01s             1           0  0.25s           2025-11-13T07:00:55                      12
+================================================================================
+[2025-11-13T10:01:56.018+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.00s           2025-11-13T07:01:26                      12
+/opt/airflow/dags/codestats_to_postgres.py          237  0.00s             1           0  0.21s           2025-11-13T07:01:25                      12
+================================================================================
+[2025-11-13T10:02:26.543+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.70s           2025-11-13T07:01:57                      12
+/opt/airflow/dags/codestats_to_postgres.py          325  0.00s             1           0  0.21s           2025-11-13T07:01:56                      12
+================================================================================
+[2025-11-13T10:02:57.167+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.01s           2025-11-13T07:02:29                      12
+/opt/airflow/dags/codestats_to_postgres.py          363  0.00s             1           0  0.22s           2025-11-13T07:02:26                      12
+================================================================================
+[2025-11-13T10:03:28.087+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.83s           2025-11-13T07:03:01                      12
+/opt/airflow/dags/codestats_to_postgres.py          410  0.01s             1           0  0.21s           2025-11-13T07:02:57                      12
+================================================================================
+[2025-11-13T10:03:29.113+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T10:04:08.288+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T10:04:08.289+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T10:04:08.290+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T10:04:08.291+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T10:04:08.358+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T10:04:08.668+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          161  0.05s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    158  0.08s             0           0                                                   0
+================================================================================
+[2025-11-13T10:04:39.392+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.86s           2025-11-13T07:04:10                      12
+/opt/airflow/dags/codestats_to_postgres.py          246  0.00s             1           0  0.55s           2025-11-13T07:04:09                      12
+================================================================================
+[2025-11-13T10:05:10.002+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.66s           2025-11-13T07:04:41                      12
+/opt/airflow/dags/codestats_to_postgres.py          290  0.00s             1           0  0.16s           2025-11-13T07:04:39                      12
+================================================================================
+[2025-11-13T10:05:41.210+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.82s           2025-11-13T07:05:12                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.20s           2025-11-13T07:05:40                      12
+================================================================================
+[2025-11-13T10:06:11.493+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.71s           2025-11-13T07:05:43                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.15s           2025-11-13T07:06:10                      12
+================================================================================
+[2025-11-13T10:06:41.810+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.02s           2025-11-13T07:06:15                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.19s           2025-11-13T07:06:40                      12
+================================================================================
+[2025-11-13T10:07:11.281+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T10:07:54.860+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T10:07:54.861+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T10:07:54.862+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T10:07:54.863+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T10:07:54.957+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T10:07:55.299+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          161  0.05s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    158  0.08s             0           0                                                   0
+================================================================================
+[2025-11-13T10:08:26.084+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.02s           2025-11-13T07:07:56                      12
+/opt/airflow/dags/codestats_to_postgres.py          246  0.00s             1           0  0.33s           2025-11-13T07:07:55                      12
+================================================================================
+[2025-11-13T10:08:56.640+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.64s           2025-11-13T07:08:26                      12
+/opt/airflow/dags/codestats_to_postgres.py          277  0.00s             1           0  0.16s           2025-11-13T07:08:26                      12
+================================================================================
+[2025-11-13T10:09:27.629+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.69s           2025-11-13T07:08:58                      12
+/opt/airflow/dags/codestats_to_postgres.py          322  0.00s             1           0  0.16s           2025-11-13T07:08:56                      12
+================================================================================
+[2025-11-13T10:09:58.017+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.78s           2025-11-13T07:09:29                      12
+/opt/airflow/dags/codestats_to_postgres.py          363  0.00s             1           0  0.16s           2025-11-13T07:09:27                      12
+================================================================================
+[2025-11-13T10:10:29.013+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  2.08s           2025-11-13T07:10:02                      12
+/opt/airflow/dags/codestats_to_postgres.py          487  0.01s             1           0  0.18s           2025-11-13T07:09:58                      12
+================================================================================
+[2025-11-13T10:10:59.615+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.66s           2025-11-13T07:10:32                      12
+/opt/airflow/dags/codestats_to_postgres.py          518  0.00s             1           0  0.20s           2025-11-13T07:10:29                      12
+================================================================================
+[2025-11-13T10:11:29.918+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.66s           2025-11-13T07:11:04                      12
+/opt/airflow/dags/codestats_to_postgres.py          562  0.01s             1           0  0.24s           2025-11-13T07:10:59                      12
+================================================================================
+[2025-11-13T10:12:00.252+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.71s           2025-11-13T07:11:35                      12
+/opt/airflow/dags/codestats_to_postgres.py          603  0.00s             1           0  0.26s           2025-11-13T07:11:30                      12
+================================================================================
+[2025-11-13T10:12:30.729+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.75s           2025-11-13T07:12:07                      12
+/opt/airflow/dags/codestats_to_postgres.py          700  0.01s             1           0  0.18s           2025-11-13T07:12:00                      12
+================================================================================
+[2025-11-13T10:12:55.145+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T10:12:55.289+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T10:13:01.494+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.68s           2025-11-13T07:12:38                      12
+/opt/airflow/dags/codestats_to_postgres.py          741  0.01s             1           0  0.17s           2025-11-13T07:12:30                      12
+================================================================================
+[2025-11-13T10:13:32.568+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.45s           2025-11-13T07:13:10                      12
+/opt/airflow/dags/codestats_to_postgres.py          775  0.01s             1           0  0.38s           2025-11-13T07:13:01                      12
+================================================================================
+[2025-11-13T10:14:03.345+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.81s           2025-11-13T07:13:59                      12
+/opt/airflow/dags/codestats_to_postgres.py                                 1           0  0.28s           2025-11-13T07:13:55                      12
+================================================================================
+[2025-11-13T10:14:31.510+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-13T10:15:13.693+0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-11-13T10:15:13.694+0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-11-13T10:15:13.696+0300] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-13T10:15:13.697+0300] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-11-13T10:15:13.761+0300] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-11-13T10:15:14.116+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/codestats_to_postgres.py          163  0.06s             0           0                                                   0
+/opt/airflow/dags/trino_transform_to_postgres.py    160  0.09s             0           0                                                   0
+================================================================================
+[2025-11-13T10:15:44.757+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.23s           2025-11-13T07:15:15                      12
+/opt/airflow/dags/codestats_to_postgres.py          196  0.00s             1           0  0.34s           2025-11-13T07:15:14                      12
+================================================================================
+[2025-11-13T10:16:15.467+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.82s           2025-11-13T07:15:46                      12
+/opt/airflow/dags/codestats_to_postgres.py          271  0.01s             1           0  0.18s           2025-11-13T07:15:44                      12
+================================================================================
+[2025-11-13T10:16:46.273+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.85s           2025-11-13T07:16:17                      12
+/opt/airflow/dags/codestats_to_postgres.py          302  0.00s             1           0  0.38s           2025-11-13T07:16:15                      12
+================================================================================
+[2025-11-13T10:17:17.019+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.68s           2025-11-13T07:16:49                      12
+/opt/airflow/dags/codestats_to_postgres.py          340  0.00s             1           0  0.16s           2025-11-13T07:16:46                      12
+================================================================================
+[2025-11-13T10:17:47.742+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.94s           2025-11-13T07:17:20                      12
+/opt/airflow/dags/codestats_to_postgres.py          378  0.00s             1           0  0.20s           2025-11-13T07:17:17                      12
+================================================================================
+[2025-11-13T10:18:18.141+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.75s           2025-11-13T07:17:51                      12
+/opt/airflow/dags/codestats_to_postgres.py          445  0.01s             1           0  0.17s           2025-11-13T07:17:47                      12
+================================================================================
+[2025-11-13T10:18:49.120+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.20s           2025-11-13T07:18:23                      12
+/opt/airflow/dags/codestats_to_postgres.py          483  0.01s             1           0  0.23s           2025-11-13T07:18:18                      12
+================================================================================
+[2025-11-13T10:19:20.275+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  1.15s           2025-11-13T07:18:54                      12
+/opt/airflow/dags/codestats_to_postgres.py          521  0.00s             1           0  0.35s           2025-11-13T07:18:49                      12
+================================================================================
+[2025-11-13T10:19:50.747+0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/trino_transform_to_postgres.py                           1           0  0.77s           2025-11-13T07:19:26                      12
+/opt/airflow/dags/codestats_to_postgres.py          552  0.01s             1           0  0.16s           2025-11-13T07:19:20                      12
+================================================================================
+[2025-11-13T10:19:55.258+0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

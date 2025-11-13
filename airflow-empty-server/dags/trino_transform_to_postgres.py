@@ -1,5 +1,6 @@
 from __future__ import annotations
 from datetime import datetime, timedelta
+
 import pandas as pd
 
 from airflow import DAG
@@ -7,9 +8,8 @@ from airflow.decorators import task
 from airflow.providers.trino.hooks.trino import TrinoHook
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 
-# Извлекаем из Postgres через Trino (каталог postgresql, схема public)
-TRINO_CONN_ID = "trino_default"         # создай это подключение в Airflow
-POSTGRES_CONN_ID = "spacex_postgres"    # у тебя уже есть в airflow.env
+TRINO_CONN_ID = "trino_default"
+POSTGRES_CONN_ID = "spacex_postgres"
 
 default_args = {
     "owner": "airflow",
@@ -19,9 +19,9 @@ default_args = {
 
 with DAG(
         dag_id="trino_to_postgres_launches_enriched",
-        description="Read from Postgres via Trino, transform, and load back to Postgres",
+        description="Read SpaceX snapshots via Trino, transform, and load to Postgres",
         start_date=datetime(2025, 1, 1),
-        schedule="@daily",
+        schedule="*/2 * * * *",  # каждые 2 минуты
         catchup=False,
         tags=["trino", "transform", "postgres"],
         default_args=default_args,
@@ -32,7 +32,7 @@ with DAG(
         sql = """
         CREATE TABLE IF NOT EXISTS launches_enriched (
             id TEXT PRIMARY KEY,
-            date_utc TIMESTAMP,
+            date_utc TIMESTAMPTZ,
             year INT,
             success BOOLEAN,
             success_label TEXT,
@@ -47,54 +47,68 @@ with DAG(
     @task
     def extract_from_trino() -> str:
         """
-        Читаем исходные таблицы через Trino (каталог postgresql, схема public).
-        Если у тебя таблицы называются иначе — поправь имена.
+        Берём данные из spacex_launch_snapshots через Trino.
+        Пока используем только id и дату — без успеха и ракет.
         """
         th = TrinoHook(trino_conn_id=TRINO_CONN_ID)
-        # Тянем join, чтобы сразу получить имя ракеты
         sql = """
         SELECT
-          l.id,
-          l.date_utc,
-          l.success,
-          l.rocket_id,
-          r.name AS rocket_name,
-          l.launchpad_id
-        FROM postgresql.public.launches l
-        LEFT JOIN postgresql.public.rockets r
-               ON r.id = l.rocket_id
+          launch_id AS id,
+          date_utc
+        FROM postgresql.public.spacex_launch_snapshots
         """
         df = th.get_pandas_df(sql)
-        # кладём во временный parquet (надёжнее для межтаскового обмена)
-        tmp_path = "/tmp/launches_trino.parquet"
-        df.to_parquet(tmp_path, index=False)
+
+        tmp_path = "/tmp/launches_trino.csv"
+        df.to_csv(tmp_path, index=False)
         return tmp_path
 
     @task
     def transform(tmp_path: str) -> str:
-        df = pd.read_parquet(tmp_path)
+        df = pd.read_csv(tmp_path)
 
-        # Преобразования:
-        # 1) Год запуска
-        df["year"] = pd.to_datetime(df["date_utc"], utc=True, errors="coerce").dt.year
-        # 2) Читабельная метка успеха
-        df["success_label"] = df["success"].map({True: "SUCCESS", False: "FAIL"}).fillna("UNKNOWN")
+        # дата в datetime (на всякий)
+        df["date_utc"] = pd.to_datetime(df["date_utc"], utc=True, errors="coerce")
 
-        # Сохраняем только нужные поля в том же порядке, что в целевой таблице
-        out = df[[
-            "id", "date_utc", "year", "success",
-            "success_label", "rocket_id", "rocket_name", "launchpad_id"
-        ]].drop_duplicates(subset=["id"])
+        # год
+        df["year"] = df["date_utc"].dt.year
 
-        out_path = "/tmp/launches_enriched.parquet"
-        out.to_parquet(out_path, index=False)
+        # success — строго NULL (None), чтобы не было NaN/float
+        df["success"] = None
+
+        # метка успеха (у нас пока нет инфы — ставим UNKNOWN)
+        df["success_label"] = "UNKNOWN"
+
+        # ракету/площадку пока не заполняем
+        df["rocket_id"] = None
+        df["rocket_name"] = None
+        df["launchpad_id"] = None
+
+        # оставляем только нужные колонки и убираем дубли по id
+        out = df[
+            [
+                "id",
+                "date_utc",
+                "year",
+                "success",
+                "success_label",
+                "rocket_id",
+                "rocket_name",
+                "launchpad_id",
+            ]
+        ].drop_duplicates(subset=["id"])
+
+        out_path = "/tmp/launches_enriched.csv"
+        out.to_csv(out_path, index=False)
         return out_path
 
     @task
     def load_to_postgres(out_path: str):
-        df = pd.read_parquet(out_path)
+        df = pd.read_csv(out_path)
 
-        # upsert по id
+        # ещё раз на всякий: success -> None, чтобы не было float/NaN
+        df["success"] = None
+
         upsert_sql = """
         INSERT INTO launches_enriched
         (id, date_utc, year, success, success_label, rocket_id, rocket_name, launchpad_id)
@@ -108,22 +122,17 @@ with DAG(
           rocket_name = EXCLUDED.rocket_name,
           launchpad_id = EXCLUDED.launchpad_id
         """
+
         hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
-        hook.insert_rows(
-            table="launches_enriched",
-            rows=df.to_dict("records"),
-            target_fields=[
-                "id", "date_utc", "year", "success", "success_label",
-                "rocket_id", "rocket_name", "launchpad_id"
-            ],
-            commit_every=1000,
-            replace=False,  # используем отдельный upsert ниже
-        )
-        # insert_rows не умеет ON CONFLICT; выполним батч-upsert вручную:
         conn = hook.get_conn()
         cur = conn.cursor()
-        for rec in df.to_dict("records"):
+
+        records = df.to_dict("records")
+        for rec in records:
+            # date_utc из CSV уже строка ISO, Postgres её нормально съест
+            # success у нас уже None
             cur.execute(upsert_sql, rec)
+
         conn.commit()
         cur.close()
         conn.close()

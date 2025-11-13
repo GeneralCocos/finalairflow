@@ -1,7 +1,9 @@
-version: '3.8'
+# airflow.yml  — запускать: docker compose -f airflow.yml up -d --build
+
 services:
   airflow-metadata:
-    image: postgres:13
+    image: postgres:16-alpine
+    container_name: airflow-metadata
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
@@ -11,105 +13,95 @@ services:
     volumes:
       - airflow-db-data:/var/lib/postgresql/data
     healthcheck:
-      test: [ "CMD", "pg_isready", "-U", "airflow" ]
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
       interval: 5s
-      retries: 5
-    restart: always
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
 
-  # ⬇️ NEW: Trino
   trino:
-    image: trinodb/trino:448
+    image: trinodb/trino:432
     container_name: trino
     ports:
-      - "8081:8080"          # наружу на 8081, внутри 8080
+      - "8081:8080"
     volumes:
-      - ./trino/catalog:/etc/trino/catalog
+      - ../docker-compose/trino/catalog:/etc/trino/catalog
     depends_on:
       airflow-metadata:
         condition: service_healthy
-    restart: always
-
-  airflow-scheduler:
-    image: my-custom-airflow:${AIRFLOW_VERSION:-2.9.1}
-    build:
-      context: ../docker
-      dockerfile: Dockerfile
-      args:
-        AIRFLOW_VERSION: ${AIRFLOW_VERSION:-2.9.1}
-    command: scheduler
-    healthcheck:
-      test: ["CMD-SHELL",'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"']
-      interval: 10s
-      timeout: 10s
-      retries: 5
-    restart: always
-    user: "${AIRFLOW_UID:-50000}:0"
-    depends_on:
-      airflow-metadata:
-        condition: service_healthy
-      airflow-init:
-        condition: service_completed_successfully
-      trino:
-        condition: service_started
-    env_file:
-      - airflow/airflow.env
-    volumes:
-      - ../dags:/opt/airflow/dags
-      - ../logs:/opt/airflow/logs
-
-  airflow-webserver:
-    image: my-custom-airflow:${AIRFLOW_VERSION:-2.9.1}
-    build:
-      context: ../docker
-      dockerfile: Dockerfile
-      args:
-        AIRFLOW_VERSION: ${AIRFLOW_VERSION:-2.9.1}
-    command: webserver
-    healthcheck:
-      test: [ "CMD", "curl", "--fail", "http://localhost:8080/health" ]
-      interval: 10s
-      timeout: 10s
-      retries: 5
-    restart: always
-    user: "${AIRFLOW_UID:-50000}:0"
-    depends_on:
-      airflow-metadata:
-        condition: service_healthy
-      airflow-init:
-        condition: service_completed_successfully
-      trino:
-        condition: service_started
-    env_file:
-      - airflow/airflow.env
-    volumes:
-      - ../dags:/opt/airflow/dags
-      - ../logs:/opt/airflow/logs
-    ports:
-      - "8080:8080"
+    restart: unless-stopped
 
   airflow-init:
-    image: my-custom-airflow:${AIRFLOW_VERSION:-2.9.1}
+    image: my-custom-airflow:2.10.2-py3.12
     build:
-      context: ../docker
-      dockerfile: Dockerfile
+      context: ..
+      dockerfile: docker/Dockerfile
       args:
-        AIRFLOW_VERSION: ${AIRFLOW_VERSION:-2.9.1}
-    entrypoint: /opt/airflow/scripts/entrypoint.sh
-    user: "${AIRFLOW_UID:-50000}:0"
+        AIRFLOW_VERSION: 2.10.2
+        PYTHON_VERSION: "3.12"
+    container_name: airflow-init
+    env_file: ./airflow/airflow.env
     depends_on:
       airflow-metadata:
         condition: service_healthy
-    env_file:
-      - airflow/airflow.env
-    environment:
-      _AIRFLOW_WWW_USER_USERNAME: airflow_user
-      _AIRFLOW_WWW_USER_FIRSTNAME: Airflow
-      _AIRFLOW_WWW_USER_LASTNAME: Admin
-      _AIRFLOW_WWW_USER_EMAIL: airflowadmin@example.com
-      _AIRFLOW_WWW_USER_ROLE: Admin
-      _AIRFLOW_WWW_USER_PASSWORD: airflow_password
+    # entrypoint уже задан в Dockerfile; просим "режим init"
+    command: ["init"]
+    user: "${AIRFLOW_UID:-50000}:0"
     volumes:
-      - ../scripts:/opt/airflow/scripts
+      - ../dags:/opt/airflow/dags
+      - ../logs:/opt/airflow/logs
+      - ../plugins:/opt/airflow/plugins
+    restart: "no"
+
+  airflow-webserver:
+    image: my-custom-airflow:2.10.2-py3.12
+    container_name: airflow-webserver
+    command: ["webserver"]
+    env_file: ./airflow/airflow.env
+    depends_on:
+      airflow-metadata:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+      trino:
+        condition: service_started
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail http://localhost:8080/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    ports:
+      - "8080:8080"
+    user: "${AIRFLOW_UID:-50000}:0"
+    volumes:
+      - ../dags:/opt/airflow/dags
+      - ../logs:/opt/airflow/logs
+      - ../plugins:/opt/airflow/plugins
+    restart: unless-stopped
+
+  airflow-scheduler:
+    image: my-custom-airflow:2.10.2-py3.12
+    container_name: airflow-scheduler
+    command: ["scheduler"]
+    env_file: ./airflow/airflow.env
+    depends_on:
+      airflow-metadata:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+      trino:
+        condition: service_started
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$${HOSTNAME}\""]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    user: "${AIRFLOW_UID:-50000}:0"
+    volumes:
+      - ../dags:/opt/airflow/dags
+      - ../logs:/opt/airflow/logs
+      - ../plugins:/opt/airflow/plugins
+    restart: unless-stopped
 
 volumes:
   airflow-db-data: {}
