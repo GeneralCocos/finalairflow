@@ -19,19 +19,19 @@ services:
       retries: 10
     restart: unless-stopped
 
-  coincap-postgres:
+  spacex-postgres:
     image: postgres:16-alpine
-    container_name: coincap-postgres
+    container_name: spacex-postgres
     environment:
-      POSTGRES_USER: coincap
-      POSTGRES_PASSWORD: coincap
-      POSTGRES_DB: coincap
+      POSTGRES_USER: spacex
+      POSTGRES_PASSWORD: spacex
+      POSTGRES_DB: spacex
     ports:
-      - "5433:5432"
+      - "5434:5432"
     volumes:
-      - coincap-db-data:/var/lib/postgresql/data
+      - spacex-db-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U coincap -d coincap"]
+      test: ["CMD-SHELL", "pg_isready -U spacex -d spacex"]
       interval: 5s
       timeout: 5s
       retries: 10
@@ -47,7 +47,7 @@ services:
     depends_on:
       airflow-metadata:
         condition: service_healthy
-      coincap-postgres:
+      spacex-postgres:
         condition: service_healthy
     restart: unless-stopped
 
@@ -64,7 +64,7 @@ services:
     depends_on:
       airflow-metadata:
         condition: service_healthy
-      coincap-postgres:
+      spacex-postgres:
         condition: service_healthy
     # entrypoint уже задан в Dockerfile; просим "режим init"
     command: ["init"]
@@ -83,7 +83,7 @@ services:
     depends_on:
       airflow-metadata:
         condition: service_healthy
-      coincap-postgres:
+      spacex-postgres:
         condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
@@ -111,7 +111,7 @@ services:
     depends_on:
       airflow-metadata:
         condition: service_healthy
-      coincap-postgres:
+      spacex-postgres:
         condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
@@ -131,4 +131,4 @@ services:
 
 volumes:
   airflow-db-data: {}
-  coincap-db-data: {}
+  spacex-db-data: {}
