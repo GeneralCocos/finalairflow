@@ -21,7 +21,7 @@ and then add your own pipelines.
 │   ├── Dockerfile   # extends apache/airflow with optional Python deps
 │   └── requirements.txt
 ├── docker-compose/
-│   └── airflow.yml  # compose definition for metadata DB and Airflow services
+│   └── airflow.yml  # compose definition for metadata + business Postgres and Airflow services
 ├── logs/            # scheduler/webserver logs
 ├── scripts/         # host scripts mounted into the containers
 └── tasks/           # invoke tasks for convenience wrappers
@@ -31,10 +31,11 @@ The `dags`, `db`, `logs`, and `scripts` directories only contain `.gitkeep`
 placeholders so that they exist in a fresh clone.
 
 When you start the stack Airflow will pick up a connection named
-`spacex_postgres` from the environment. It points at the bundled PostgreSQL
-service so that the example DAG can run without extra setup. If you would like
-to ingest into another database, set the `SPACEX_POSTGRES_CONN_ID` environment
-variable inside Airflow or override the `AIRFLOW_CONN_SPACEX_POSTGRES` entry in
+`spacex_postgres` from the environment. It now points at a dedicated
+`spacex-postgres` service which keeps your project data separate from the
+metadata database that Airflow itself uses. If you would like to ingest into
+another database, set the `SPACEX_POSTGRES_CONN_ID` environment variable inside
+Airflow or override the `AIRFLOW_CONN_SPACEX_POSTGRES` entry in
 [`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env).
 
 ## Configuration

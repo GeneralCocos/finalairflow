@@ -19,6 +19,24 @@ services:
       retries: 10
     restart: unless-stopped
 
+  spacex-postgres:
+    image: postgres:16-alpine
+    container_name: spacex-postgres
+    environment:
+      POSTGRES_USER: spacex
+      POSTGRES_PASSWORD: spacex
+      POSTGRES_DB: spacex
+    ports:
+      - "5433:5432"
+    volumes:
+      - spacex-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U spacex -d spacex"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
   trino:
     image: trinodb/trino:432
     container_name: trino
@@ -28,6 +46,8 @@ services:
       - ../docker-compose/trino/catalog:/etc/trino/catalog
     depends_on:
       airflow-metadata:
+        condition: service_healthy
+      spacex-postgres:
         condition: service_healthy
     restart: unless-stopped
 
@@ -43,6 +63,8 @@ services:
     env_file: ./airflow/airflow.env
     depends_on:
       airflow-metadata:
+        condition: service_healthy
+      spacex-postgres:
         condition: service_healthy
     # entrypoint уже задан в Dockerfile; просим "режим init"
     command: ["init"]
@@ -60,6 +82,8 @@ services:
     env_file: ./airflow/airflow.env
     depends_on:
       airflow-metadata:
+        condition: service_healthy
+      spacex-postgres:
         condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
@@ -87,6 +111,8 @@ services:
     depends_on:
       airflow-metadata:
         condition: service_healthy
+      spacex-postgres:
+        condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
       trino:
@@ -105,3 +131,4 @@ services:
 
 volumes:
   airflow-db-data: {}
+  spacex-db-data: {}
