@@ -16,7 +16,9 @@ from utils.coincap_postgres import ensure_coincap_postgres_connection
 COINCAP_POSTGRES_CONN_ID = "coincap_postgres"
 COINCAP_API_KEY_ENV = "COINCAP_API_KEY"
 COINCAP_ASSET_IDS: List[str] = ["bitcoin", "ethereum", "tether"]
-COINCAP_ASSETS_ENDPOINT = "https://api.coincap.io/v2/assets"
+COINCAP_API_BASE_URL = os.environ.get("COINCAP_API_BASE_URL", "https://api.coincap.io")
+COINCAP_API_HOST_HEADER = os.environ.get("COINCAP_API_HOST_HEADER")
+COINCAP_ASSETS_ENDPOINT = f"{COINCAP_API_BASE_URL.rstrip('/')}/v2/assets"
 
 ensure_coincap_postgres_connection()
 
@@ -115,6 +117,8 @@ with DAG(
             "Authorization": f"Bearer {_get_api_key()}",
             "Accept": "application/json",
         }
+        if COINCAP_API_HOST_HEADER:
+            headers["Host"] = COINCAP_API_HOST_HEADER
         params = {"ids": ",".join(COINCAP_ASSET_IDS)}
         response = requests.get(
             COINCAP_ASSETS_ENDPOINT,
