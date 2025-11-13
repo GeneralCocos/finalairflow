@@ -8,9 +8,10 @@ from typing import Any, Dict, Iterable, List, Optional
 import requests
 from airflow import DAG
 from airflow.decorators import task
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from psycopg2.extras import Json, execute_values
-from utils.coincap_postgres import get_coincap_postgres_hook
 
+COINCAP_POSTGRES_CONN_ID = "coincap_postgres"
 COINCAP_API_KEY_ENV = "COINCAP_API_KEY"
 COINCAP_ASSET_IDS: List[str] = ["bitcoin", "ethereum", "tether"]
 COINCAP_ASSETS_ENDPOINT = "https://api.coincap.io/v2/assets"
@@ -102,7 +103,7 @@ with DAG(
         CREATE INDEX IF NOT EXISTS coincap_asset_snapshots_fetched_at_idx
             ON coincap_asset_snapshots (fetched_at DESC);
         """
-        get_coincap_postgres_hook().run(ddl)
+        PostgresHook(postgres_conn_id=COINCAP_POSTGRES_CONN_ID).run(ddl)
 
     @task
     def fetch_top_assets() -> List[Dict[str, Any]]:
@@ -158,7 +159,7 @@ with DAG(
             raw_payload = EXCLUDED.raw_payload;
         """
 
-        hook = get_coincap_postgres_hook()
+        hook = PostgresHook(postgres_conn_id=COINCAP_POSTGRES_CONN_ID)
         conn = hook.get_conn()
         with conn:
             with conn.cursor() as cur:

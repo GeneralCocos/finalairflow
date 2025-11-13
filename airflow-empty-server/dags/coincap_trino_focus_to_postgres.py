@@ -6,10 +6,11 @@ from typing import Any, Dict, List
 import pandas as pd
 from airflow import DAG
 from airflow.decorators import task
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.trino.hooks.trino import TrinoHook
-from utils.coincap_postgres import get_coincap_postgres_hook
 
 TRINO_CONN_ID = "trino_default"
+COINCAP_POSTGRES_CONN_ID = "coincap_postgres"
 FOCUS_ASSET_ID = "bitcoin"
 
 
@@ -47,7 +48,7 @@ with DAG(
         CREATE INDEX IF NOT EXISTS coincap_focus_asset_fetched_at_idx
             ON coincap_focus_asset (fetched_at DESC);
         """
-        get_coincap_postgres_hook().run(ddl)
+        PostgresHook(postgres_conn_id=COINCAP_POSTGRES_CONN_ID).run(ddl)
 
     @task
     def extract_focus_asset() -> List[Dict[str, Any]]:
@@ -107,7 +108,7 @@ with DAG(
             change_percent_24h = EXCLUDED.change_percent_24h;
         """
 
-        hook = get_coincap_postgres_hook()
+        hook = PostgresHook(postgres_conn_id=COINCAP_POSTGRES_CONN_ID)
         conn = hook.get_conn()
         with conn:
             with conn.cursor() as cur:
