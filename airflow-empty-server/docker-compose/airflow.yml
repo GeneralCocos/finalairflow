@@ -27,7 +27,7 @@ services:
       POSTGRES_PASSWORD: spacex
       POSTGRES_DB: spacex
     ports:
-      - "5433:5432"
+      - "5434:5432"
     volumes:
       - spacex-db-data:/var/lib/postgresql/data
     healthcheck:
