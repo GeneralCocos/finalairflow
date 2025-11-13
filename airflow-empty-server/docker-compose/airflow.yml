@@ -19,6 +19,24 @@ services:
       retries: 10
     restart: unless-stopped
 
+  coincap-postgres:
+    image: postgres:16-alpine
+    container_name: coincap-postgres
+    environment:
+      POSTGRES_USER: coincap
+      POSTGRES_PASSWORD: coincap
+      POSTGRES_DB: coincap
+    ports:
+      - "5433:5432"
+    volumes:
+      - coincap-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U coincap -d coincap"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
   trino:
     image: trinodb/trino:432
     container_name: trino
@@ -26,8 +44,13 @@ services:
       - "8081:8080"
     volumes:
       - ../docker-compose/trino/catalog:/etc/trino/catalog
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
     depends_on:
       airflow-metadata:
+        condition: service_healthy
+      coincap-postgres:
         condition: service_healthy
     restart: unless-stopped
 
@@ -41,8 +64,13 @@ services:
         PYTHON_VERSION: "3.12"
     container_name: airflow-init
     env_file: ./airflow/airflow.env
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
     depends_on:
       airflow-metadata:
+        condition: service_healthy
+      coincap-postgres:
         condition: service_healthy
     # entrypoint уже задан в Dockerfile; просим "режим init"
     command: ["init"]
@@ -58,8 +86,13 @@ services:
     container_name: airflow-webserver
     command: ["webserver"]
     env_file: ./airflow/airflow.env
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
     depends_on:
       airflow-metadata:
+        condition: service_healthy
+      coincap-postgres:
         condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
@@ -84,8 +117,13 @@ services:
     container_name: airflow-scheduler
     command: ["scheduler"]
     env_file: ./airflow/airflow.env
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
     depends_on:
       airflow-metadata:
+        condition: service_healthy
+      coincap-postgres:
         condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
@@ -105,3 +143,4 @@ services:
 
 volumes:
   airflow-db-data: {}
+  coincap-db-data: {}

@@ -22,23 +22,42 @@ create_admin_user() {
     --password "${password}" || true
 }
 
+ensure_connection() {
+  local conn_id="$1"
+  local env_var="$2"
+  local conn_uri="${!env_var:-}"
+
+  if [[ -n "${conn_uri}" ]]; then
+    airflow connections add "${conn_id}" --conn-uri "${conn_uri}" --overwrite >/dev/null 2>&1 || true
+  fi
+}
+
+bootstrap_connections() {
+  ensure_connection "trino_default" "AIRFLOW_CONN_TRINO_DEFAULT"
+  ensure_connection "coincap_postgres" "AIRFLOW_CONN_COINCAP_POSTGRES"
+}
+
 case "${1:-}" in
   init)
     migrate_database
     create_admin_user
+    bootstrap_connections
     ;;
   webserver)
     migrate_database
     create_admin_user
+    bootstrap_connections
     exec airflow webserver
     ;;
   scheduler)
     migrate_database
+    bootstrap_connections
     exec airflow scheduler
     ;;
   *)
     # по умолчанию ведём себя как init
     migrate_database
     create_admin_user
+    bootstrap_connections
     ;;
 esac
