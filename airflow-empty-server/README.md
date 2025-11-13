@@ -21,7 +21,7 @@ and then add your own pipelines.
 │   ├── Dockerfile   # extends apache/airflow with optional Python deps
 │   └── requirements.txt
 ├── docker-compose/
-│   └── airflow.yml  # compose definition for metadata DB and Airflow services
+│   └── airflow.yml  # compose definition for metadata + business Postgres and Airflow services
 ├── logs/            # scheduler/webserver logs
 ├── scripts/         # host scripts mounted into the containers
 └── tasks/           # invoke tasks for convenience wrappers
@@ -31,11 +31,24 @@ The `dags`, `db`, `logs`, and `scripts` directories only contain `.gitkeep`
 placeholders so that they exist in a fresh clone.
 
 When you start the stack Airflow will pick up a connection named
-`spacex_postgres` from the environment. It points at the bundled PostgreSQL
-service so that the example DAG can run without extra setup. If you would like
-to ingest into another database, set the `SPACEX_POSTGRES_CONN_ID` environment
-variable inside Airflow or override the `AIRFLOW_CONN_SPACEX_POSTGRES` entry in
-[`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env).
+`coincap_postgres` from the environment. The custom entrypoint syncs it (and the
+default `trino_default` connection) into Airflow's metadata database on each
+startup so tasks can rely on them even when `LOAD_DEFAULT_CONNECTIONS` is
+disabled. The connection points at the dedicated `coincap-postgres` service
+which keeps your project data separate from the metadata database that Airflow
+itself uses. If you would like to ingest into another database, override the
+`AIRFLOW_CONN_COINCAP_POSTGRES` entry in
+[`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env) and
+restart the stack so the new URI is persisted.
+
+Two example DAGs demonstrate how to work with this setup:
+
+- `coincap_assets_to_postgres` polls the CoinCap Pro API every minute for
+  Bitcoin, Ethereum, and Tether. Raw snapshots are stored in the
+  `coincap_asset_snapshots` table along with the full JSON payload.
+- `coincap_trino_focus_to_postgres` queries those snapshots through Trino,
+  filters the data down to Bitcoin only, and maintains a curated
+  `coincap_focus_asset` table in PostgreSQL.
 
 ## Configuration
 Airflow specific configuration is stored in
