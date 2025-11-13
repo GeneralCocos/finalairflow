@@ -31,15 +31,12 @@ The `dags`, `db`, `logs`, and `scripts` directories only contain `.gitkeep`
 placeholders so that they exist in a fresh clone.
 
 When you start the stack Airflow will pick up a connection named
-`coincap_postgres` from the environment. The custom entrypoint syncs it (and the
-default `trino_default` connection) into Airflow's metadata database on each
-startup so tasks can rely on them even when `LOAD_DEFAULT_CONNECTIONS` is
-disabled. The connection points at the dedicated `coincap-postgres` service
-which keeps your project data separate from the metadata database that Airflow
-itself uses. If you would like to ingest into another database, override the
-`AIRFLOW_CONN_COINCAP_POSTGRES` entry in
-[`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env) and
-restart the stack so the new URI is persisted.
+`spacex_postgres` from the environment. It now points at a dedicated
+`spacex-postgres` service which keeps your project data separate from the
+metadata database that Airflow itself uses. If you would like to ingest into
+another database, set the `SPACEX_POSTGRES_CONN_ID` environment variable inside
+Airflow or override the `AIRFLOW_CONN_SPACEX_POSTGRES` entry in
+[`docker-compose/airflow/airflow.env`](docker-compose/airflow/airflow.env).
 
 Two example DAGs demonstrate how to work with this setup:
 
