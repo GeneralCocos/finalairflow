@@ -11,10 +11,14 @@ from airflow.decorators import task
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from psycopg2.extras import Json, execute_values
 
+from utils.coincap_postgres import ensure_coincap_postgres_connection
+
 COINCAP_POSTGRES_CONN_ID = "coincap_postgres"
 COINCAP_API_KEY_ENV = "COINCAP_API_KEY"
 COINCAP_ASSET_IDS: List[str] = ["bitcoin", "ethereum", "tether"]
 COINCAP_ASSETS_ENDPOINT = "https://api.coincap.io/v2/assets"
+
+ensure_coincap_postgres_connection()
 
 
 def _get_api_key() -> str:
